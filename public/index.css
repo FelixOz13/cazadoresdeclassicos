@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp4216604.jpg");
+   
+    max-width:fit-content;
+}
+
+
+.navbar {
+   background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.navbartitle {
+    color: goldenrod;
+    font-family: 'Racing Sans One';
+    margin-left: 90px;
+    font-size: 4vw;
+}
+.flag-logo {
+    position: absolute;
+    left: 10px;
+    width: 80px;
+    height: 70px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+
+.card {
+    width: 300px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    /* ADD */
+    display: flex;
+    /* ADD */
+    flex-direction: column;
+    margin-top: 25px;
+    /* ADD */
+    background-color: rgb(178, 134, 21);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 15px;
+ 
+
+}
+
+ 
+.card--price {
+    margin-bottom: auto;
+}
+
+
+.card--image {
+    width: 100%;
+    height:180px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:1.3rem;
+    font-family: 'Racing Sans One';
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+     color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.bold{
+    font-family:'Racing Sans One';
+
+}
+.card--price{margin-bottom: 10px;}
+
+
+
+
+
+
+     
+
+
+
+
+
+ 
+
+.icons-website{
+    font-size: 1.2rem;
+    color:black;
+   background-color:yellow;
+   border-radius:10px;
+   }
+                         
+
+
+
+      
+
+
+
+
+.third-party-icons{
+    display: flex;
+    flex-direction:row;
+    position:relative;
+    right: 5px;
+    
+   }
+.icons-fb{
+   margin-top:4px;
+    margin-bottom:2px;
+    padding: 5px;
+    font-size: 50px;
+    color:rgba(52, 120, 238, 0.868);
+    
+}
+
+.icons-YT{
+    margin-top:4px;
+    margin-bottom:2px;
+    padding:3px;
+    font-size: 50px;
+    color:red;
+}
+
+.icons-twitter{
+    margin-top:4px;
+    margin-bottom:2px;
+    padding:3px;
+    font-size: 50px;
+    color:cyan;}
+    
+.icons-instagram{
+    margin-top:4px;
+    margin-bottom:2px;
+    padding:3px;
+    font-size: 50px;
+    color:rgb(243, 9, 138);
+}
+
+
+.icons-tiktok{
+    margin-top:4px;
+    margin-bottom:2px;
+    padding:3px;
+    font-size: 45px;
+    color:white;
+}
+
+
+.locationImg{
+    width:60px;
+    height:auto;
+    margin: 25px;
+    border-radius:10px;
+}
+.category{
+    font-family: 'Racing Sans One';
+    font-size: 1rem;
+}
+.gray{
+    font-family: 'Racing Sans One';
+    font-size: 1rem;
+}
+
+::-webkit-scrollbar{
+    width:.50rem;
+}
+::-webkit-scrollbar-track{
+    width:.80rem;
+    background:black;
+    border-radius:1px;
+}
+::-webkit-scrollbar-thumb{
+    background:goldenrod;
+    border-radius:15px;
+
+}
+
+
+
+    .card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    color: black;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.sponsorcontainer1 {
+    margin-left: 30px;
+}
+
+.sponsorcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsorcontainer>* {
+    flex: 0 1 20%;
+}
+
+.sponsor {
+
+    width: 55px;
+    height: 60px;
+    border-radius: 20%;
+    margin: 6px;
+}
+.sponsor:hover {
+    background-image: linear-gradient(to right, black,goldenrod,red);
+    max-width: 95px;
+    max-height: 95px;
+    padding: 5px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.contactheader {
+    margin-top: 20px;
+    font-family: 'Asap Condensed';
+    font-size: 1.5rem;
+    color: black;
+}
+
+.contact {
+    margin-top: 10px;
+    font-family: 'Asap Condensed';
+    font-size: 1.2rem;
+    color: black;
+
+}
+.flag-logo2 {
+    width: 80px;
+    
+}
